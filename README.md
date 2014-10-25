@@ -13,4 +13,6 @@ Keep users posts in a partner community from being a conduit where partners can 
 6. All partners can see it, comment on it, and then see each other's discussions
 7. You could train internal users not to do this, but you're worried that there'll still be mistakes made.
 
+##Solution
+Trigger that intercepts a chatter post, checks the user, context, and network scope, and if necessary, blocks the post.
 
